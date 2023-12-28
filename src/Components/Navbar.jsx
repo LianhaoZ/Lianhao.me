@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { fadeIn, textVariant } from "../utils/motion";
 // import { navLinks } from '../constants/Data';
 import { motion } from "framer-motion";
-import StarsCanvas from "./Stars";
+import StarsCanvas from "./Stars"; 
 
 const Navbar = () => {
     const [active, setActive] = useState("");
@@ -27,10 +27,12 @@ const Navbar = () => {
 
                         <ul className='flex gap-3 justify-evenly space-x-4 max-w-screen-xl'> 
                             <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
-                                <a className="text-gray-200" href="projects">Projects</a>  
+                                <NavLink className="text-gray-200" to="/projects"  
+                                >Projects</NavLink>  
                             </div>
                             <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
-                                <a className="text-gray-200" href="blog">Blog</a>  
+                                <NavLink  className="text-gray-200" to="/blog" 
+                                >Blog</NavLink>  
                             </div>
 
                             {/* <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
@@ -63,7 +65,7 @@ const Navbar = () => {
                         </ul>
 
 
-                        {/* small devices */}
+                        {/* small devices ->> need to fix*/}
 
                         <div className='sm:hidden flex flex-1 justify-end items-center'>
                             <i

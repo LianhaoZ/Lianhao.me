@@ -5,7 +5,7 @@ import Layout from './pages/Layout';
 
 const HomePage = lazy(() => import('./pages/HomePage'));
 const ProjectsPage = lazy(() => import('./pages/projects'));
-// const ResearchPage = lazy(() => import('./pages/ResearchPage'));
+const Blog = lazy(() => import('./pages/blog'));
 // const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
           <Route path='/' element={<Layout />}>
             <Route path='/' element={<HomePage />} />
             <Route path='/projects' element={<ProjectsPage />} />
-            {/* <Route path='/research' element={<ResearchPage />} />
-            <Route path='*' element={<NotFoundPage />} /> */}
+            <Route path='/blog' element={<Blog />} />
+            {/* <Route path='*' element={<NotFoundPage />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>
