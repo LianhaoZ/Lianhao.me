@@ -3,6 +3,8 @@ import { Outlet, useLocation } from 'react-router-dom'
 
 import { Load, Navbar} from '../Components'; 
 
+import Footer from '../Components/footer';
+
 const Layout = () => {
   const location = useLocation()
   useEffect(() => {
@@ -15,6 +17,9 @@ const Layout = () => {
       <Suspense fallback={<Load />}>
         <main className='px-7 py-8'>
           <Outlet />
+          <div className='prose m-auto'> 
+            <Footer />
+          </div>
         </main>
       </Suspense>
     </>

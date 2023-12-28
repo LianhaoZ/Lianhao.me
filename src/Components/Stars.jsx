@@ -97,7 +97,7 @@ const Stars = (props) => {
 const StarsCanvas = () => {
   return (
     <div
-      className="w-full h-auto absolute inset-0 z-[-1] opacity-80 blur-sm"
+      className="w-full h-auto inset-0 z-[-1] opacity-85 blur-sm m-0 p-0 fixed"
     >
       <Canvas camera={{ position: [0, 0, 1] }}>
         <Suspense fallback={null}>

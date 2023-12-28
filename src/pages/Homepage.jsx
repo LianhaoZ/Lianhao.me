@@ -1,7 +1,5 @@
 
 
-import Footer from "../Components/footer";
-
 const Homepage = () => {
     return (
         <div className='prose m-auto'>
@@ -77,6 +75,14 @@ const Homepage = () => {
                     stuff to be filled in... <br /> 
                     stuff to be filled in... <br /> 
                     stuff to be filled in... <br /> 
+                    stuff to be filled in... <br /> 
+                    stuff to be filled in... <br /> 
+                    stuff to be filled in... <br /> 
+                    stuff to be filled in... <br /> 
+                    stuff to be filled in... <br /> 
+                    stuff to be filled in... <br /> 
+                    stuff to be filled in... <br /> 
+                    stuff to be filled in... <br /> 
                 </p>
             </div>
             <hr className='w-10 m-auto' /> 
@@ -99,8 +105,7 @@ const Homepage = () => {
                      
                 </p>
             </div>
-
-            <Footer />
+ 
         </div>
     )
 }

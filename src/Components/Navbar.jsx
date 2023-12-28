@@ -12,14 +12,15 @@ const Navbar = () => {
 
     return (
         <>
+
+            <StarsCanvas />
             <header>
                 <Link
                     to='/'
                     className='w-8 h-8 fixed m-6'
                 >
-                    <img className="cursor-pointer w-8 h-8" src='/assets/logo.svg' />
+                    <img className="cursor-pointer w-10 h-10" src='/assets/logo.svg' />
                 </Link>
-
                 <nav>
                     <div className="flex justify-between p-8 w-full max-content box-border">
                         <div>{/*spacer */}</div>
@@ -52,7 +53,9 @@ const Navbar = () => {
                                     {/* this hidden checkbox controls the state */}
                                     <input type="checkbox" className="theme-controller" value="synthwave" />
                                     {/* sun icon */}
-                                    <i className="swap-on w-6 h-6 icon-[ri--sun-line]" />
+                                    {/* <i className="swap-on w-6 h-6 icon-[ri--sun-line]" /> */}
+                                    {/* <i className="swap-on w-6 h-6 icon-[ri--star-s-line]" /> */}
+                                    <i className="swap-on w-6 h-6 icon-[ri--flashlight-line]" /> 
                                     {/* moon icon */}
                                     <i className="swap-off w-6 h-6 icon-[ri--moon-line]" />
                                 </label> 
@@ -95,8 +98,7 @@ const Navbar = () => {
                     </div>
                 </nav>
                 
-            </header>
-            <StarsCanvas />
+            </header> 
         </>
     )
 }
