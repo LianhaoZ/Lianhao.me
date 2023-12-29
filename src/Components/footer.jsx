@@ -1,5 +1,3 @@
-// import urlJoin from 'url-join' 
-
 
 const Footer = () => {
 
@@ -31,4 +29,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;

@@ -1,9 +1,7 @@
 import { Suspense, useEffect } from 'react' 
 import { Outlet, useLocation } from 'react-router-dom' 
 
-import { Load, Navbar} from '../Components'; 
-
-import Footer from '../Components/footer';
+import { Load, Navbar} from '../Components';  
 
 const Layout = () => {
   const location = useLocation()
@@ -16,10 +14,7 @@ const Layout = () => {
       <Navbar /> 
       <Suspense fallback={<Load />}>
         <main className='px-7 py-8'>
-          <Outlet />
-          <div className='prose m-auto'> 
-            <Footer />
-          </div>
+          <Outlet /> 
         </main>
       </Suspense>
     </>

@@ -1,4 +1,4 @@
-
+import { Footer } from "../Components";
 
 const Blog = () => {
     return(
@@ -16,6 +16,8 @@ const Blog = () => {
 
 
             <div>need to insert projects...</div>
+
+            <Footer />
         </div> 
             
         

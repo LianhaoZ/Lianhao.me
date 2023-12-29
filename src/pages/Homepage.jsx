@@ -1,4 +1,4 @@
-
+import { Footer } from "../Components";
 
 const Homepage = () => {
     return (
@@ -16,7 +16,7 @@ const Homepage = () => {
                         <span className="text-gray-200 hover: brightness-150" >Northwestern University </span>
                     </a>
                     . This past summer, I interned at{' '}
-                    <a target='_blank' href='https://www.janestreet.com/'>
+                    <a target='_blank' href='https://sites.northwestern.edu/lanelab/'>
                         <span className="text-gray-200 hover: brightness-150" >The Lane Lab </span>
                     </a>{' '}
                     as a Research Assistant. 
@@ -105,7 +105,7 @@ const Homepage = () => {
                      
                 </p>
             </div>
- 
+            <Footer />
         </div>
     )
 }

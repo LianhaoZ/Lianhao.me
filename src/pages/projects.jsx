@@ -1,4 +1,4 @@
-
+import { Footer } from "../Components";
 
 const ProjectsPage = () => {
     return(
@@ -20,6 +20,7 @@ const ProjectsPage = () => {
 
 
             <div>need to insert projects...</div>
+            <Footer />
         </div> 
             
         
