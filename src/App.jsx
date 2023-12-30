@@ -3,7 +3,7 @@ import { lazy } from 'react';
 
 import Layout from './pages/Layout';
 
-const HomePage = lazy(() => import('./pages/HomePage'));
+const HomePage = lazy(() => import('./pages/Homepage'));
 const ProjectsPage = lazy(() => import('./pages/projects'));
 const Blog = lazy(() => import('./pages/blog'));
 const NotFound = lazy(() => import('./pages/NotFoundPage.jsx'));
