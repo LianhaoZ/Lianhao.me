@@ -1,8 +1,7 @@
 import { useCallback, useState } from "react";
 import { Link, NavLink } from 'react-router-dom'; 
 
-import { fadeIn, textVariant } from "../utils/motion";
-// import { navLinks } from '../constants/Data';
+import { fadeIn, textVariant } from "../utils/motion"; 
 import { motion } from "framer-motion";
 import StarsCanvas from "./Stars"; 
 
@@ -34,10 +33,7 @@ const Navbar = () => {
                                 <NavLink  className="text-gray-200" to="/blog" 
                                 >Blog</NavLink>  
                             </div>
-
-                            {/* <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
-                                <a className="text-gray-200" href="research">Research</a>  
-                            </div> */}
+ 
                             <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
                                 <a className="text-gray-200" href="https://drive.google.com/drive/u/2/folders/10CbZTl5wmdVYZzaEfKFyVvM6PKCyblMV">Résumé</a>  
                             </div> 

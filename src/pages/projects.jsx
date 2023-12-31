@@ -10,16 +10,10 @@ const ProjectsPage = () => {
                 </div>
             </h1>
             <p className="text-gray-300">
-                Here's a curated list of projects I'm involved with. Some of them are
-                full on public-facing services. Some of them are school projects I'm
-                proud of. Some of them are just an excuse for me to explore a new
-                technology. Regardless, I try to package them in a shareable way, and I
-                hope you can have some fun poking around.
+                Below is the list of projects I am involved in. 
             </p> 
 
-
-
-            <div>need to insert projects...</div>
+            {/* <div>need to insert projects...</div> */}
             <Footer />
         </div> 
             

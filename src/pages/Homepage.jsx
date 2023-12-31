@@ -51,8 +51,7 @@ const Homepage = () => {
                     >
                         <span className="text-gray-200 hover: brightness-150" >lianzheng2026@northwestern.edu </span>
                          
-                    </a>{' '}
-                     
+                    </a>{' '} 
                 </p>
             </div>
             <Footer />
