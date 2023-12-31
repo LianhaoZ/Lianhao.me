@@ -29,10 +29,10 @@ const Navbar = () => {
                                 <NavLink className="text-gray-200" to="/projects"  
                                 >Projects</NavLink>  
                             </div>
-                            <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
+                            {/* <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
                                 <NavLink  className="text-gray-200" to="/blog" 
                                 >Blog</NavLink>  
-                            </div>
+                            </div> */}
  
                             <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
                                 <a className="text-gray-200" href="https://drive.google.com/drive/u/2/folders/10CbZTl5wmdVYZzaEfKFyVvM6PKCyblMV">Résumé</a>  

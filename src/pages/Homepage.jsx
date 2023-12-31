@@ -1,4 +1,5 @@
 import { Footer } from "../Components";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
     return (
@@ -15,23 +16,39 @@ const Homepage = () => {
                     <a target='_blank' href='https://www.northwestern.edu/'>
                         <span className="text-gray-200 hover: brightness-150" >Northwestern University </span>
                     </a>
-                    . This past summer, I interned at{' '}
-                    <a target='_blank' href='https://sites.northwestern.edu/lanelab/'>
-                        <span className="text-gray-200 hover: brightness-150" >The Lane Lab </span>
-                    </a>{' '}
-                    as a Research Assistant. 
+                    .  
                 </p>
                 <p>
-                    At school, I am a founder at{' '}
-                    <a target='_blank' href='https://www.thegarage.northwestern.edu/programs/the-luminate-program'>
-                    <span className="text-gray-200 hover: brightness-150" >The Garage </span> 
-                    </a>, where I am currently working on developing a ride share application 
-                     to help connect connect riders to save cost and lower carbon emission. I was 
-                     also a TA for{' '}
+                    At school, I am 
+                     a committe member on the {' '}
+                    <a target='_blank' href='http://nwusase.weebly.com'>
+                        <span className="text-gray-200 hover: brightness-150" > Society of Asian Scientists and Engineers </span> 
+                    </a>, and I am on the software team for 
+                    <a target='_blank' href='https://northwesternformularacing.com'>
+                        <span className="text-gray-200 hover: brightness-150" > Northwestern University Formula Racing </span> 
+                    </a>.
+                    
+                     I was also a TA for{' '}
                     <a target='_blank' href='https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/111.html'>
                         <span className="text-gray-200 hover: brightness-150" > COMP_SCI 111: Fundamentals of Computer Programming </span>
                     </a>.
                 </p> 
+                <hr className='w-10 m-auto' /> 
+                <p>
+                    Outside of School, I am a founder at{' '}
+                    <a target='_blank' href='https://www.thegarage.northwestern.edu/programs/the-luminate-program'>
+                        <span className="text-gray-200 hover: brightness-150" >The Garage </span> 
+                    </a>, where I am currently working on developing a ride share application 
+                     to help connect connect riders to save cost and lower carbon emission. This past summer, I also interned at{' '}
+                    <a target='_blank' href='https://sites.northwestern.edu/lanelab/'>
+                        <span className="text-gray-200 hover: brightness-150" >The Lane Lab </span>
+                    </a>{' '}
+                    as a Research Assistant, where I worked on building a pipeline for image classification of cells under salmonella infection.
+                    You can find more about my projects in {' '} 
+                    <Link to="/projects" >
+                    <span className="text-gray-200 hover: brightness-150">  Projects </span>
+                    </Link>
+                </p>
                 {/* <p> more stuff to come...</p> */}
             </div>
             
