@@ -21,26 +21,17 @@ const Homepage = () => {
                     </a>{' '}
                     as a Research Assistant. 
                 </p>
-                {/* <p>
-                    At school, I was the Projects Director at{' '}
-                    <a target='_blank' href='https://www.fullstackatbrown.com/about'>
-                        Full Stack at Brown
-                    </a>
-                    , where I coordinated 30+ project teams and directly manage several
-                    high impact products, such as{' '}
-                    <a target='_blank' href='https://hours.cs.brown.edu/'>
-                        Hours
-                    </a>
-                    , Brown CS's TA hours platform, and{' '}
-                    <a target='_blank' href='https://thecriticalreview.org/'>
-                        The Critical Review
-                    </a>
-                    , Brown's official course review website. I was also a TA for{' '}
+                <p>
+                    At school, I am a founder at{' '}
+                    <a target='_blank' href='https://www.thegarage.northwestern.edu/programs/the-luminate-program'>
+                    <span className="text-gray-200 hover: brightness-150" >The Garage </span> 
+                    </a>, where I am tasked currently with devloping a ride share application 
+                     to help connect connect riders to save cost and lower carbon emission. I was 
+                     also a TA for{' '}
                     <a target='_blank' href='https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/111.html'>
                     COMP_SCI 111: Fundamentals of Computer Programming
-                    </a>
-                    .
-                </p> */}
+                    </a>.
+                </p> 
                 {/* <p>
                     Besides software engineering, I did research in body-aware generative
                     models through{' '}
@@ -68,8 +59,8 @@ const Homepage = () => {
                     League of Legends for my own good.
                 </p> */}
             </div>
-            <hr className='w-10 m-auto' /> 
-            <div>
+            {/* <hr className='w-10 m-auto' />  */}
+            {/* <div>
                 <p>
                     stuff to be filled in... <br /> 
                     stuff to be filled in... <br /> 
@@ -84,7 +75,7 @@ const Homepage = () => {
                     stuff to be filled in... <br /> 
                     stuff to be filled in... <br /> 
                 </p>
-            </div>
+            </div> */}
             <hr className='w-10 m-auto' /> 
             <div className="text-gray-300">
                 <p>
