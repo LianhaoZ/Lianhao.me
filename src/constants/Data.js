@@ -1,3 +1,6 @@
+import { Mask } from "../../public/assets";
+// import { Mask } from "/assets/Mask.png";
+
 const projects = [
   {
     name: "Mask Up",
@@ -13,7 +16,7 @@ const projects = [
         color: "pink-text-gradient",
       }, 
     ],
-    image: carrent,
+    image: Mask,
     source_code_link: "https://mask-up.glitch.me",
   },
   {
@@ -30,9 +33,9 @@ const projects = [
         color: "green-text-gradient",
       }, 
     ],
-    image: jobit,
+    image: "https://pbs.twimg.com/media/De4YQ_fV4AAqyGf.jpg",
     source_code_link: "https://github.com/LaneLab/ImageAnalysisPipeline",
   }, 
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { projects };
