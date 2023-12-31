@@ -25,59 +25,16 @@ const Homepage = () => {
                     At school, I am a founder at{' '}
                     <a target='_blank' href='https://www.thegarage.northwestern.edu/programs/the-luminate-program'>
                     <span className="text-gray-200 hover: brightness-150" >The Garage </span> 
-                    </a>, where I am tasked currently with devloping a ride share application 
+                    </a>, where I am currently working on developing a ride share application 
                      to help connect connect riders to save cost and lower carbon emission. I was 
                      also a TA for{' '}
                     <a target='_blank' href='https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/111.html'>
                         <span className="text-gray-200 hover: brightness-150" > COMP_SCI 111: Fundamentals of Computer Programming </span>
-
-                    
                     </a>.
                 </p> 
-                {/* <p>
-                    Besides software engineering, I did research in body-aware generative
-                    models through{' '}
-                    <a target='_blank' href='https://visual.cs.brown.edu/'>
-                        Brown Visual Computing
-                    </a>{' '}
-                    and worked on specializing object segmentation and image
-                    classification techniques to biomedical applications. You can read
-                    more about my research in my{' '}
-                    <Link disabled={partyMode} to='/research'>
-                        publications
-                    </Link>
-                    .
-                </p> */}
-                {/* <p>
-                    Outside of work, I'm a big time classical music nerd and play the
-                    cello. I also run an{' '}
-                    <a target='_blank' href='https://www.instagram.com/dingsdinner/'>
-                        Instagram food account
-                    </a>{' '}
-                    to document my dining and cooking adventures, all while playing{' '}
-                    <a target='_blank' href='https://na.op.gg/summoners/na/IAGDL'>
-                        a little too much
-                    </a>{' '}
-                    League of Legends for my own good.
-                </p> */}
+                {/* <p> more stuff to come...</p> */}
             </div>
-            {/* <hr className='w-10 m-auto' />  */}
-            {/* <div>
-                <p>
-                    stuff to be filled in... <br /> 
-                    stuff to be filled in... <br /> 
-                    stuff to be filled in... <br /> 
-                    stuff to be filled in... <br /> 
-                    stuff to be filled in... <br /> 
-                    stuff to be filled in... <br /> 
-                    stuff to be filled in... <br /> 
-                    stuff to be filled in... <br /> 
-                    stuff to be filled in... <br /> 
-                    stuff to be filled in... <br /> 
-                    stuff to be filled in... <br /> 
-                    stuff to be filled in... <br /> 
-                </p>
-            </div> */}
+            
             <hr className='w-10 m-auto' /> 
             <div className="text-gray-300">
                 <p>
