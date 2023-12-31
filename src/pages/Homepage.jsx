@@ -29,7 +29,9 @@ const Homepage = () => {
                      to help connect connect riders to save cost and lower carbon emission. I was 
                      also a TA for{' '}
                     <a target='_blank' href='https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/111.html'>
-                    COMP_SCI 111: Fundamentals of Computer Programming
+                        <span className="text-gray-200 hover: brightness-150" > COMP_SCI 111: Fundamentals of Computer Programming </span>
+
+                    
                     </a>.
                 </p> 
                 {/* <p>
