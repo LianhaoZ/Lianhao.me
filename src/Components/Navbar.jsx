@@ -32,7 +32,7 @@ const Navbar = () => {
                             </div> */}
  
                             <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
-                                <a className="text-gray-200" href="https://drive.google.com/drive/u/2/folders/10CbZTl5wmdVYZzaEfKFyVvM6PKCyblMV">Résumé</a>  
+                                <a className="text-gray-200" href="/Resume.pdf">Résumé</a>  
                             </div> 
                             <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
                                 <a href="https://github.com/LianhaoZ"> <i alt="github" className={`text-gray-200 w-6 h-6 cursor-pointer icon-[ri--github-line]`} /> </a>

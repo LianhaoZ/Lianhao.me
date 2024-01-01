@@ -28,7 +28,7 @@
 }
 
 .project img {
-    height: auto;
+    /* height: 5px; */
     border-radius: 8px;
     max-width: 100%; 
 }
