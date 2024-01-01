@@ -26,3 +26,9 @@
     margin-bottom: 0.5em;
     line-height: 1.25em;
 }
+
+.project img {
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%; 
+}

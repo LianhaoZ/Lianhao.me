@@ -1,7 +1,9 @@
 import { Suspense, useEffect } from 'react' 
 import { Outlet, useLocation } from 'react-router-dom' 
 
-import { Load, Navbar} from '../Components';  
+import StarsCanvas from "../Components/Stars"; 
+import { Load, Navbar} from '../Components';   
+import { Preload } from '@react-three/drei';
 
 const Layout = () => {
   const location = useLocation()
@@ -10,12 +12,14 @@ const Layout = () => {
   }, [location])
 
   return (
-    <>
+    <> 
       <Navbar /> 
       <Suspense fallback={<Load />}>
+        <StarsCanvas />
         <main className='px-7 py-8'>
           <Outlet /> 
-        </main>
+        </main> 
+        
       </Suspense>
     </>
   )

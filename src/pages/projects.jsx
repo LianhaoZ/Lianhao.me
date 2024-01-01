@@ -1,6 +1,8 @@
-import { Footer} from "../Components";
-import { projects } from "../constants/Data"; 
+import { Footer } from "../Components";
+import { projects } from "../constants/Data";
 import '../Components/project.css';
+import { Mask, cell } from "../../public/assets";
+import { Link } from "react-router-dom";
 
 const projectcard = ({ index,
     name,
@@ -8,18 +10,18 @@ const projectcard = ({ index,
     tags,
     image,
     source_code_link,
-  }) => {
-    return(
+}) => {
+    return (
         <a className='project'>
             <h3 className='align-mid text'>
                 {name}
             </h3>
             <p className='description'>{description}</p>
             <a className=" m-auto" href={source_code_link}><img src={image}> </img> </a>
-           
+
         </a>
-  )
-} 
+    )
+}
 
 const ProjectsPage = () => {
     return (
@@ -42,11 +44,25 @@ const ProjectsPage = () => {
                         gridTemplateColumns: 'repeat(auto-fit, minmax(288px, 1fr))',
                     }}
                 >
-                    {projects.map((p,index) => (
+                    <a className='project'>
+                        <h3 className='align-mid text '>
+                            <span className="text-gray-300">Mask Up</span> 
+                        </h3>
+                        <p className='description'> Face tracker Website that models face coordinates using trained machine learning model integrated with FaceMesh</p>
+                        <a className=" m-auto" href="https://mask-up.glitch.me"><img src={Mask} /></a>
+                    </a>
+                    <a className='project'>
+                        <h3 className='align-mid text '>
+                            <span className="text-gray-300">Cell Tracker</span> 
+                        </h3>
+                        <p className='description'> Pipeline to classify cells during imaging, it is hypothesized that changes in the shape and size of the nucleus can be used to train a model using deep learning. This project aims to develop/incorporate a deep learning algorithm to be used for optimizing a pipeline that classifies cells and track their movements during infection. </p>
+                        <Link to="https://github.com/LaneLab/ImageAnalysisPipeline" className=" m-auto"><img src={cell} /></Link>
+                    </a>
+                    {/* {projects.map((p,index) => (
                         <projectcard key = { `project-${index}`} 
                         index = {index} {...p}
                       />
-                    ))}
+                    ))} */}
                 </div>
                 <Footer />
             </div>

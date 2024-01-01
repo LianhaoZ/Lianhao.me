@@ -1,4 +1,4 @@
-import { Mask } from "../../public/assets";
+import { Mask, cell } from "../../public/assets";
 // import { Mask } from "/assets/Mask.png";
 
 const projects = [
@@ -33,7 +33,7 @@ const projects = [
         color: "green-text-gradient",
       }, 
     ],
-    image: "https://pbs.twimg.com/media/De4YQ_fV4AAqyGf.jpg",
+    image: cell,
     source_code_link: "https://github.com/LaneLab/ImageAnalysisPipeline",
   }, 
 ];
