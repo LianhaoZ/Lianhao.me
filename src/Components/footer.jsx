@@ -5,7 +5,7 @@ const Footer = () => {
         <>
         <footer className='mt-10 mb-6 opacity-50 flex flex-row'>
             <div className='inline-block flex-auto'> 
-                <span className="text-sm"><a className=" text-inherit" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 2023-PRESENT © Lianhao Zheng</span>
+                <span className="text-sm"> 2023-PRESENT © Lianhao Zheng</span>
             </div>
             <div className='justify-self-end self-center'>
                 <a
