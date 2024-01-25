@@ -39,7 +39,7 @@ const Homepage = () => {
                     <a target='_blank' href='https://www.thegarage.northwestern.edu/programs/the-luminate-program'>
                         <span className="text-gray-200 hover: brightness-150" >The Garage </span> 
                     </a>, where I am currently working on developing a ride share application 
-                     to help connect connect riders to save cost and lower carbon emission. This past summer, I also interned at{' '}
+                     to help connect riders to save cost and lower carbon emission. This past summer, I also interned at{' '}
                     <a target='_blank' href='https://sites.northwestern.edu/lanelab/'>
                         <span className="text-gray-200 hover: brightness-150" >The Lane Lab </span>
                     </a>{' '}
