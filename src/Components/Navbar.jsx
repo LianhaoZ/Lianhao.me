@@ -60,7 +60,7 @@ const Navbar = () => {
 
                         {/* small devices ->> need to fix*/}
 
-                        <div className='sm:hidden flex flex-1 justify-end items-center'>
+                        {/* <div className='sm:hidden flex flex-1 justify-end items-center'>
                             <i
                                 alt="menu"
                                 className={`${toggle ? 'icon-[ri--close-fill]' : 'icon-[ri--menu-3-fill]'} w-[28px] h-[28px] items-center absolute top-5 right-5 z-[10] object-contain cursor-pointer`}
@@ -89,7 +89,7 @@ const Navbar = () => {
                                     </ul>
                                 </div>}
                             </motion.div>
-                        </div>
+                        </div> */}
                     </div>
                 </nav>
                 
