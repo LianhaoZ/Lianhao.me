@@ -46,11 +46,11 @@ const Navbar = () => {
 
                                 <label className="swap swap-rotate cursor-pointer">
                                     {/* this hidden checkbox controls the state */}
-                                    <input type="checkbox" className="theme-controller" value="synthwave" />
+                                    <input type="checkbox" className="theme-controller" value="light" />
                                     {/* sun icon */}
-                                    {/* <i className="swap-on w-6 h-6 icon-[ri--sun-line]" /> */}
+                                    <i className="swap-on w-6 h-6 icon-[ri--sun-line] bg-white" />
                                     {/* <i className="swap-on w-6 h-6 icon-[ri--star-s-line]" /> */}
-                                    <i className="swap-on w-6 h-6 icon-[ri--flashlight-line]" /> 
+                                    {/* <i className="swap-on w-6 h-6 icon-[ri--flashlight-line]" />  */}
                                     {/* moon icon */}
                                     <i className="swap-off w-6 h-6 icon-[ri--moon-line]" />
                                 </label> 
