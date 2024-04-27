@@ -60,6 +60,14 @@ const ProjectsPage = () => {
                         {/* <Link to="https://github.com/LaneLab/ImageAnalysisPipeline" className=" m-auto"><img src={cell} /></Link> */}
                         {/* <img className=" h-30 m-auto object-contain" src={cell}/> */}
                     </a>
+                    <a className='project'>
+                        <h3 className='align-mid text '>
+                             <a href="https://github.com/IEEE-campusmap/frontend" className="text-gray-300">CrowdScope</a>  
+                        </h3>
+                        <p className='description'> CrowdScope: Instant campus occupancy insights at your fingertips. This user-friendly app leverages real-time crowd ratings to help Northwestern students avoid the hassle of crowded spots. Plan your day with confidence and save time for what matters most.</p>
+                        {/* <Link to="https://github.com/LaneLab/ImageAnalysisPipeline" className=" m-auto"><img src={cell} /></Link> */}
+                        {/* <img className=" h-30 m-auto object-contain" src={cell}/> */}
+                    </a>
                     {/* {projects.map((p,index) => (
                         <projectcard key = { `project-${index}`} 
                         index = {index} {...p}
