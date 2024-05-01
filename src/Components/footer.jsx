@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
         <footer className='mt-10 mb-6 opacity-50 flex flex-row'>
-            <div className='inline-block flex-auto'> 
+            <div className='inline-block flex-auto text-gray-200'> 
                 <span className="text-sm"> 2023-PRESENT © Lianhao Zheng</span>
             </div>
             <div className='justify-self-end self-center'>
