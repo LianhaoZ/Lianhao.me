@@ -1,4 +1,4 @@
-import { Footer } from "../Components";
+import { Footer } from "../Components"; 
 
 const Blog = () => {
     return(

@@ -25,11 +25,7 @@ const Navbar = () => {
                             <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
                                 <NavLink className="text-gray-200" to="/projects"  
                                 >Projects</NavLink>  
-                            </div>
-                            {/* <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
-                                <NavLink  className="text-gray-200" to="/blog" 
-                                >Blog</NavLink>  
-                            </div> */}
+                            </div> 
  
                             <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
                                 <a className="text-gray-200" href="/Resume.pdf">Résumé</a>   
@@ -37,6 +33,11 @@ const Navbar = () => {
                             {/* <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
                                 <a className="text-gray-200" href="/Mask.png">test</a>
                             </div>   */}
+
+                            {/* <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
+                                <NavLink  className="text-gray-200" to="/blog" 
+                                >Blog</NavLink>  
+                            </div> */}
                             <div className="cursor-pointer text-decoration-none text-inherit transition-opacity duration-200 opacity-60 outline-none hover:opacity-100">
                                 <a href="https://github.com/LianhaoZ"> <i alt="github" className={`text-gray-200 w-6 h-6 cursor-pointer icon-[ri--github-line]`} /> </a>
                             </div>
