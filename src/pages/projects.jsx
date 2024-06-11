@@ -54,7 +54,7 @@ const ProjectsPage = () => {
                     </a>
                     <a className='project'>
                         <h3 className='align-mid text '>
-                             <a href="https://github.com/LaneLab/ImageAnalysisPipeline" className="text-gray-300">Cell Tracker</a>  
+                             <a href="https://github.com/LianhaoZ/Pipeline" className="text-gray-300">Cell Tracker</a>  
                         </h3>
                         <p className='description'> Pipeline to classify cells during imaging, it is hypothesized that changes in the shape and size of the nucleus can be used to train a model using deep learning. This project aims to develop/incorporate a deep learning algorithm to be used for optimizing a pipeline that classifies cells and track their movements during infection. </p>
                         {/* <Link to="https://github.com/LaneLab/ImageAnalysisPipeline" className=" m-auto"><img src={cell} /></Link> */}
