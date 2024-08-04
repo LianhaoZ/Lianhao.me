@@ -16,10 +16,10 @@ const Homepage = () => {
                     <a target='_blank' href='https://www.northwestern.edu/'>
                         <span className="text-gray-200 hover: brightness-150" >Northwestern University </span>
                     </a>.
-                    I am currently working on the software team at  
+                    I am currently working with  
                     <a target='_blank' href='https://projectolympus.app'>
                         <span className="text-gray-200 hover: brightness-150" > Project Olympus LLC </span> 
-                    </a>. 
+                    </a> as a software engineer intern for the summer.  
                 </p>
                 <p>
                     At school, I am a committe member on the {' '}
@@ -40,7 +40,7 @@ const Homepage = () => {
                         <span className="text-gray-200 hover: brightness-150" > COMP_SCI 396: Intro to Web Development </span>
                     </a>.
                 </p> 
-                <hr className='w-10 m-auto' /> 
+                {/* <hr className='w-10 m-auto' />  */}
                 <p>
                     Outside of School, I am a founder at{' '}
                     <a target='_blank' href='https://www.thegarage.northwestern.edu/programs/the-luminate-program'>
