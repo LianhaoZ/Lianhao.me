@@ -14,11 +14,11 @@ const Homepage = () => {
                 <p>
                     I'm an undergrad pursuing a four-year concurrent BA and MS in Computer Science at{' '}
                     <a target='_blank' href='https://www.northwestern.edu/'>
-                        <span className="text-gray-200 hover: brightness-150" >Northwestern University </span>
-                    </a>.
+                        <span className="text-gray-200 hover: brightness-150" >Northwestern University. </span>
+                    </a>
                     I am currently working with  
                     <a target='_blank' href='https://projectolympus.app'>
-                        <span className="text-gray-200 hover: brightness-150" > Project Olympus LLC </span> 
+                        <span className="text-gray-200 hover: brightness-150" >Project Olympus LLC </span> 
                     </a> as a software engineer intern for the summer.  
                 </p>
                 <p>
@@ -27,8 +27,8 @@ const Homepage = () => {
                         <span className="text-gray-200 hover: brightness-150" > Society of Asian Scientists and Engineers </span> 
                     </a>, and I worked on the software team at  
                     <a target='_blank' href='https://www.linkedin.com/company/northwestern-university-ieee-student-branch/'>
-                        <span className="text-gray-200 hover: brightness-150" > Northwestern IEEE </span> 
-                    </a>. 
+                        <span className="text-gray-200 hover: brightness-150" > Northwestern IEEE. </span> 
+                    </a>
                      
                     
                     I was also a Peer Mentor for{' '}
@@ -51,6 +51,9 @@ const Homepage = () => {
                         <span className="text-gray-200 hover: brightness-150" >The Lane Lab </span>
                     </a>{' '}
                     as a Research Assistant, where I worked on building a pipeline for image classification of cells under salmonella infection.
+                     
+                </p>
+                <p>
                     You can find more about my projects in {' '} 
                     <Link to="/projects" >
                     <span className="text-gray-200 hover: brightness-150">  Projects </span>
