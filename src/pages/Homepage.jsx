@@ -51,7 +51,7 @@ const Homepage = () => {
                         <span className="text-gray-200 hover: brightness-150" >The Lane Lab </span>
                     </a>{' '}
                     as a Research Assistant, where I worked on building a pipeline for image classification of cells under salmonella infection.
-                     
+                    <br></br> 
                 </p>
                 <p>
                     You can find more about my projects in {' '} 
