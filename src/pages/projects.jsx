@@ -33,7 +33,7 @@ const ProjectsPage = () => {
                     </div>
                 </h1>
                 <p className="text-gray-300">
-                    Below is the list of projects I am involved in.
+                    Below is the list of projects I worked on.
                 </p>
 
                 {/* <div>need to fix inseting projects...</div> */}

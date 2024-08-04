@@ -20,7 +20,7 @@ const Homepage = () => {
                 </p>
                 <p>
                     At school, I am 
-                     a committe member on the {' '}
+                    a committe member on the {' '}
                     <a target='_blank' href='http://nwusase.weebly.com'>
                         <span className="text-gray-200 hover: brightness-150" > Society of Asian Scientists and Engineers </span> 
                     </a>, and I am on the software team for 
@@ -28,9 +28,13 @@ const Homepage = () => {
                         <span className="text-gray-200 hover: brightness-150" > Northwestern University Formula Racing </span> 
                     </a>.
                     
-                     I was also a TA for{' '}
+                    I was also a Peer Mentor for{' '}
                     <a target='_blank' href='https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/111.html'>
                         <span className="text-gray-200 hover: brightness-150" > COMP_SCI 111: Fundamentals of Computer Programming </span>
+                    </a>
+                    and 
+                    <a target='_blank' href='https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/396-6.html'>
+                        <span className="text-gray-200 hover: brightness-150" > COMP_SCI 396: Intro to Web Development </span>
                     </a>.
                 </p> 
                 <hr className='w-10 m-auto' /> 
