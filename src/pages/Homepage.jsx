@@ -15,18 +15,21 @@ const Homepage = () => {
                     I'm an undergrad pursuing a four-year concurrent BA and MS in Computer Science at{' '}
                     <a target='_blank' href='https://www.northwestern.edu/'>
                         <span className="text-gray-200 hover: brightness-150" >Northwestern University </span>
-                    </a>
-                    .  
+                    </a>.
+                    I am currently working on the software team at  
+                    <a target='_blank' href='https://projectolympus.app'>
+                        <span className="text-gray-200 hover: brightness-150" > Project Olympus LLC </span> 
+                    </a>. 
                 </p>
                 <p>
-                    At school, I am 
-                    a committe member on the {' '}
+                    At school, I am a committe member on the {' '}
                     <a target='_blank' href='http://nwusase.weebly.com'>
                         <span className="text-gray-200 hover: brightness-150" > Society of Asian Scientists and Engineers </span> 
-                    </a>, and I am on the software team for 
-                    <a target='_blank' href='https://northwesternformularacing.com'>
-                        <span className="text-gray-200 hover: brightness-150" > Northwestern University Formula Racing </span> 
-                    </a>.
+                    </a>, and I worked on the software team at  
+                    <a target='_blank' href='https://www.linkedin.com/company/northwestern-university-ieee-student-branch/'>
+                        <span className="text-gray-200 hover: brightness-150" > Northwestern IEEE </span> 
+                    </a>. 
+                     
                     
                     I was also a Peer Mentor for{' '}
                     <a target='_blank' href='https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/111.html'>
@@ -43,7 +46,7 @@ const Homepage = () => {
                     <a target='_blank' href='https://www.thegarage.northwestern.edu/programs/the-luminate-program'>
                         <span className="text-gray-200 hover: brightness-150" >The Garage </span> 
                     </a>, where I am currently working on developing a ride share application 
-                     to help connect riders to save cost and lower carbon emission. This past summer, I also interned at{' '}
+                     to help connect riders to save cost and lower carbon emission. Besides software engineering, I also interned at{' '}
                     <a target='_blank' href='https://sites.northwestern.edu/lanelab/'>
                         <span className="text-gray-200 hover: brightness-150" >The Lane Lab </span>
                     </a>{' '}
