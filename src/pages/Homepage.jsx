@@ -42,11 +42,11 @@ const Homepage = () => {
                 </p> 
                 {/* <hr className='w-10 m-auto' />  */}
                 <p>
-                    {/* Outside of School, I am a founder at{' '}
+                    Outside of School, I am a founder at{' '}
                     <a target='_blank' href='https://www.thegarage.northwestern.edu/programs/the-luminate-program'>
                         <span className="text-gray-200 hover: brightness-150" >The Garage </span> 
                     </a>, where I am currently working on developing a ride share application 
-                     to help connect riders to save cost and lower carbon emission.  */}
+                     to help connect riders to save cost and lower carbon emission. 
                     Besides software engineering, I also interned at{' '}
                     <a target='_blank' href='https://sites.northwestern.edu/lanelab/'>
                         <span className="text-gray-200 hover: brightness-150" >The Lane Lab </span>
