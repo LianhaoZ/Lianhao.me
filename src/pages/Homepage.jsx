@@ -41,7 +41,7 @@ const Homepage = () => {
                     </a>.
                 </p> 
                 {/* <hr className='w-10 m-auto' />  */}
-                <p>
+                <p> 
                     Outside of School, I am a founder at{' '}
                     <a target='_blank' href='https://www.thegarage.northwestern.edu/programs/the-luminate-program'>
                         <span className="text-gray-200 hover: brightness-150" >The Garage </span> 
