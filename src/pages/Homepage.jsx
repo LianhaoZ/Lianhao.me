@@ -39,7 +39,7 @@ const Homepage = () => {
                     <a target='_blank' href='https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/396-6.html'>
                         <span className="text-gray-200 hover: brightness-150" > COMP_SCI 396: Intro to Web Development </span>
                     </a>.
-                </p> 
+                </p>  
                 {/* <hr className='w-10 m-auto' />  */}
                 <p> 
                     Outside of School, I am a founder at{' '}
