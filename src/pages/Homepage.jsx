@@ -16,7 +16,7 @@ const Homepage = () => {
                     <a target='_blank' href='https://www.northwestern.edu/'>
                         <span className="text-gray-200 hover: brightness-150" >Northwestern University. </span>
                     </a>
-                    I am currently working with  
+                    I am currently working with {' '}
                     <a target='_blank' href='https://projectolympus.app'>
                         <span className="text-gray-200 hover: brightness-150" >Project Olympus LLC </span> 
                     </a> as a software engineer intern for the summer.  
