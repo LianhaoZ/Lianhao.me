@@ -11,7 +11,7 @@ const Homepage = () => {
                 </div>
             </h1>
             <div className="text-gray-300">
-                <p>
+                <p> 
                     I'm an undergrad pursuing a four-year concurrent BA and MS in Computer Science at{' '}
                     <a target='_blank' href='https://www.northwestern.edu/'>
                         <span className="text-gray-200 hover: brightness-150" >Northwestern University. </span>
