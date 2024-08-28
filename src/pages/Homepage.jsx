@@ -19,7 +19,7 @@ const Homepage = () => {
                     I am currently working with {' '}
                     <a target='_blank' href='https://projectolympus.app'>
                         <span className="text-gray-200 hover: brightness-150" >Project Olympus LLC </span> 
-                    </a> as a software engineer intern for the summer.  
+                    </a> as a software engineer intern.  
                 </p>
                 <p>
                     At school, I am a committe member on the {' '}
