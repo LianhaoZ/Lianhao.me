@@ -65,9 +65,23 @@ const ProjectsPage = () => {
                              <a href="https://github.com/IEEE-campusmap/frontend" className="text-gray-300">CrowdScope</a>  
                         </h3>
                         <p className='description'> CrowdScope: Instant campus occupancy insights at your fingertips. This user-friendly app leverages real-time crowd ratings to help Northwestern students avoid the hassle of crowded spots. Plan your day with confidence and save time for what matters most.</p>
-                        {/* <Link to="https://github.com/LaneLab/ImageAnalysisPipeline" className=" m-auto"><img src={cell} /></Link> */}
-                        {/* <img className=" h-30 m-auto object-contain" src={cell}/> */}
+                      
                     </a>
+                    <a className='project'>
+                        <h3 className='align-mid text '>
+                            <a href="https://github.com/boxabll/cs312project" className="text-gray-300">Data Tool</a>
+                        </h3>
+                        <p className='description'> Data Tool is a web app that helps you assess the privacy of your datasets by calculating l-diversity and k-anonymity. It's built with React and Vite, and leverages AWS S3, RDS, and API Gateway to handle data storage and processing through the cloud.</p>
+                         
+                    </a>
+                    <a className='project'>
+                        <h3 className='align-mid text '>
+                            <a href="https://github.com/LianhaoZ/CS310-Final-Project" className="text-gray-300">Holistic Banking and Analysis Service (HBAS)</a>
+                        </h3>
+                        <p className='description'> HBAS lets users upload CSV files via API to receive detailed financial reports, including spending insights and retirement projections, delivered as PDF charts generated through Quick Charts API, using Amazon EBS, S3, and RDS for processing and storage. </p>
+                     
+                    </a>
+ 
                     {/* {projects.map((p,index) => (
                         <projectcard key = { `project-${index}`} 
                         index = {index} {...p}
