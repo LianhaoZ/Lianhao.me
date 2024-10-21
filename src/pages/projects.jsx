@@ -131,6 +131,18 @@ const ProjectsPage = () => {
               storage.{" "}
             </p>
           </a>
+          <a className="project">
+            <h3 className="align-mid text ">
+              <a href="https://ohours.web.app" className="text-gray-300">
+                OHours
+              </a>
+            </h3>
+            <p className="description">
+              {" "}
+              An office hour queuing system to improve student experience and
+              help TAs manage questions more efficiently.{" "}
+            </p>
+          </a>
 
           {/* {projects.map((p,index) => (
                         <projectcard key = { `project-${index}`} 
