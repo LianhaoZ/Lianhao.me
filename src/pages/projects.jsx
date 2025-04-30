@@ -46,6 +46,22 @@ const ProjectsPage = () => {
           <a className="project">
             <h3 className="align-mid text ">
               <a
+                href="https://github.com/LianhaoZ/NSAET"
+                className="text-gray-300"
+              >
+                Network Security Auditing and Exploration Tool(NSAET)
+              </a>
+            </h3>
+            <p className="description">
+              {" "}
+              Python-based command-line tool for automated network scanning and
+              security auditing of web domains{" "}
+            </p>
+          </a>
+
+          <a className="project">
+            <h3 className="align-mid text ">
+              <a
                 href="https://subletnu-2655b.web.app"
                 className="text-gray-300"
               >
@@ -66,8 +82,8 @@ const ProjectsPage = () => {
             </h3>
             <p className="description">
               {" "}
-              An office hour queuing system to improve student experience and
-              help TAs manage questions more efficiently.{" "}
+              Office hour queuing system to improve student experience and help
+              TAs manage questions more efficiently.{" "}
             </p>
           </a>
           <a className="project">
@@ -90,8 +106,8 @@ const ProjectsPage = () => {
             </h3>
             <p className="description">
               {" "}
-              A trip planning tool for generating itinearies based on article
-              url input and content extraction.
+              Trip planning tool for generating itinearies based on article url
+              input and content extraction.
             </p>
           </a>
           <a className="project">
