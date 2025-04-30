@@ -36,7 +36,6 @@ const ProjectsPage = () => {
           Below is the list of projects I worked on.
         </p>
 
-        {/* <div>need to fix inseting projects...</div> */}
         <div
           style={{
             display: "grid",
@@ -46,38 +45,54 @@ const ProjectsPage = () => {
         >
           <a className="project">
             <h3 className="align-mid text ">
-              <a href="https://mask-up.glitch.me" className="text-gray-300">
-                Mask Up
+              <a
+                href="https://subletnu-2655b.web.app"
+                className="text-gray-300"
+              >
+                SubletNU
               </a>
             </h3>
             <p className="description">
               {" "}
-              Face tracker Website that models face coordinates using trained
-              machine learning model integrated with FaceMesh
+              Find sublets from real Northwestern students—search listings,
+              compare prices, and connect instantly with verified profiles.{" "}
             </p>
-            {/* <a className=" m-auto h-5" href="https://mask-up.glitch.me"><img className="h-5" src={Mask} /></a> */}
-            {/* <img className="h-auto w-auto object-contain" src={Mask}/> */}
           </a>
           <a className="project">
             <h3 className="align-mid text ">
-              <a
-                href="https://github.com/LianhaoZ/Pipeline"
-                className="text-gray-300"
-              >
-                Cell Tracker
+              <a href="https://ohours.web.app" className="text-gray-300">
+                OHours
               </a>
             </h3>
             <p className="description">
               {" "}
-              Pipeline to classify cells during imaging, it is hypothesized that
-              changes in the shape and size of the nucleus can be used to train
-              a model using deep learning. This project aims to
-              develop/incorporate a deep learning algorithm to be used for
-              optimizing a pipeline that classifies cells and track their
-              movements during infection.{" "}
+              An office hour queuing system to improve student experience and
+              help TAs manage questions more efficiently.{" "}
             </p>
-            {/* <Link to="https://github.com/LaneLab/ImageAnalysisPipeline" className=" m-auto"><img src={cell} /></Link> */}
-            {/* <img className=" h-30 m-auto object-contain" src={cell}/> */}
+          </a>
+          <a className="project">
+            <h3 className="align-mid text ">
+              <a href="https://peptalk-navy.web.app/" className="text-gray-300">
+                PepTalk: AI Journaling Tool
+              </a>
+            </h3>
+            <p className="description">
+              {" "}
+              Realtime conversation with aI companion to help you note down
+              feelings and journals for the day.
+            </p>
+          </a>
+          <a className="project">
+            <h3 className="align-mid text ">
+              <a href="https:/what2do-51224.web.app" className="text-gray-300">
+                What2Do: AI Trip Planning Tool
+              </a>
+            </h3>
+            <p className="description">
+              {" "}
+              A trip planning tool for generating itinearies based on article
+              url input and content extraction.
+            </p>
           </a>
           <a className="project">
             <h3 className="align-mid text ">
@@ -133,15 +148,38 @@ const ProjectsPage = () => {
           </a>
           <a className="project">
             <h3 className="align-mid text ">
-              <a href="https://ohours.web.app" className="text-gray-300">
-                OHours
+              <a
+                href="https://github.com/LianhaoZ/Pipeline"
+                className="text-gray-300"
+              >
+                Cell Tracker
               </a>
             </h3>
             <p className="description">
               {" "}
-              An office hour queuing system to improve student experience and
-              help TAs manage questions more efficiently.{" "}
+              Pipeline to classify cells during imaging, it is hypothesized that
+              changes in the shape and size of the nucleus can be used to train
+              a model using deep learning. This project aims to
+              develop/incorporate a deep learning algorithm to be used for
+              optimizing a pipeline that classifies cells and track their
+              movements during infection.{" "}
             </p>
+            {/* <Link to="https://github.com/LaneLab/ImageAnalysisPipeline" className=" m-auto"><img src={cell} /></Link> */}
+            {/* <img className=" h-30 m-auto object-contain" src={cell}/> */}
+          </a>
+          <a className="project">
+            <h3 className="align-mid text ">
+              <a href="https://mask-up.glitch.me" className="text-gray-300">
+                Mask Up
+              </a>
+            </h3>
+            <p className="description">
+              {" "}
+              Face tracker Website that models face coordinates using trained
+              machine learning model integrated with FaceMesh
+            </p>
+            {/* <a className=" m-auto h-5" href="https://mask-up.glitch.me"><img className="h-5" src={Mask} /></a> */}
+            {/* <img className="h-auto w-auto object-contain" src={Mask}/> */}
           </a>
 
           {/* {projects.map((p,index) => (
