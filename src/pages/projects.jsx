@@ -49,7 +49,7 @@ const ProjectsPage = () => {
                 href="https://github.com/LianhaoZ/NSAET"
                 className="text-gray-300"
               >
-                Network Security Auditing and Exploration Tool(NSAET)
+                Network Security Auditing and Exploration Tool (NSAET)
               </a>
             </h3>
             <p className="description">
@@ -100,7 +100,7 @@ const ProjectsPage = () => {
           </a>
           <a className="project">
             <h3 className="align-mid text ">
-              <a href="https:/what2do-51224.web.app" className="text-gray-300">
+              <a href="https://what2do-51224.web.app" className="text-gray-300">
                 What2Do: AI Trip Planning Tool
               </a>
             </h3>
