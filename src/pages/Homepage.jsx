@@ -23,13 +23,10 @@ const Homepage = () => {
           </a>
           This past summer, I worked at{" "}
           <a target="_blank" href="https://aws.amazon.com/ecr">
-          <a target="_blank" href="https://aws.amazon.com/ecr">
             <span className="text-gray-200 hover: brightness-150">
-              Amazon Web Services{" "}
               Amazon Web Services
             </span>
           </a>{" "}
-          as a software engineer intern focusing on Backend Development.
           as a software engineer intern focusing on Backend Development.
         </p>
         <p>
@@ -50,31 +47,29 @@ const Homepage = () => {
               Northwestern IEEE.{" "}
             </span>
           </a>
-          I am currently a peer mentor for
+          I am was a peer mentor for
           <a
             target="_blank"
-            href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/358.html"
             href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/358.html"
           >
             <span className="text-gray-200 hover: brightness-150">
               {" "}
-              COMP_SCI 358: Intro to Parallel Computing
-              COMP_SCI 358: Intro to Parallel Computing
+              COMP_SCI 358: Intro to Parallel Computing COMP_SCI 358: Intro to
+              Parallel Computing
             </span>
-          </a>{" "}
-          and I was also a Peer Mentor for{" "}
+          </a>
+          ,
           <a
             target="_blank"
-            href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/310.html"
             href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/310.html"
           >
             <span className="text-gray-200 hover: brightness-150">
               {" "}
-              COMP_SCI 310: Scalable Software Architectures
-              COMP_SCI 310: Scalable Software Architectures
+              COMP_SCI 310: Scalable Software Architectures COMP_SCI 310:
+              Scalable Software Architectures
             </span>
-          </a>{" "}
-          and
+          </a>
+          , and
           <a
             target="_blank"
             href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/396-6.html"
@@ -86,7 +81,6 @@ const Homepage = () => {
           </a>
           .
         </p>
-        {/* <hr className='w-10 m-auto' />  */}
         <p>
           Outside of School, I am a founder at{" "}
           <a
