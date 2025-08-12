@@ -23,10 +23,13 @@ const Homepage = () => {
           </a>
           This past summer, I worked at{" "}
           <a target="_blank" href="https://aws.amazon.com/ecr">
+          <a target="_blank" href="https://aws.amazon.com/ecr">
             <span className="text-gray-200 hover: brightness-150">
+              Amazon Web Services{" "}
               Amazon Web Services
             </span>
           </a>{" "}
+          as a software engineer intern focusing on Backend Development.
           as a software engineer intern focusing on Backend Development.
         </p>
         <p>
@@ -51,9 +54,11 @@ const Homepage = () => {
           <a
             target="_blank"
             href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/358.html"
+            href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/358.html"
           >
             <span className="text-gray-200 hover: brightness-150">
               {" "}
+              COMP_SCI 358: Intro to Parallel Computing
               COMP_SCI 358: Intro to Parallel Computing
             </span>
           </a>{" "}
@@ -61,9 +66,11 @@ const Homepage = () => {
           <a
             target="_blank"
             href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/310.html"
+            href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/310.html"
           >
             <span className="text-gray-200 hover: brightness-150">
               {" "}
+              COMP_SCI 310: Scalable Software Architectures
               COMP_SCI 310: Scalable Software Architectures
             </span>
           </a>{" "}
