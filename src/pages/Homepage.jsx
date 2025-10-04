@@ -27,7 +27,16 @@ const Homepage = () => {
               Amazon Web Services
             </span>
           </a>{" "}
-          as a software engineer intern focusing on Backend Development.
+          as a software engineer intern focusing on Enabling Backfill For{" "}
+          <a
+            target="_blank"
+            href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/replication.html"
+          >
+            <span className="text-gray-200 hover: brightness-150">
+              Cross Region Replication
+            </span>
+          </a>
+          .
         </p>
         <p>
           At school, I lead the Cultural Committe of{" "}
@@ -37,43 +46,39 @@ const Homepage = () => {
               Society of Asian Scientists and Engineers{" "}
             </span>
           </a>
-          , and I worked on the software team at
+          , and I worked on the software team at{" "}
           <a
             target="_blank"
             href="https://www.linkedin.com/company/northwestern-university-ieee-student-branch/"
           >
             <span className="text-gray-200 hover: brightness-150">
-              {" "}
-              Northwestern IEEE.{" "}
+              Northwestern IEEE.
             </span>
-          </a>
-          I am was a peer mentor for
+          </a>{" "}
+          I am was a peer mentor for{" "}
           <a
             target="_blank"
             href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/358.html"
           >
             <span className="text-gray-200 hover: brightness-150">
-              {" "}
               COMP_SCI 358: Intro to Parallel Computing
             </span>
           </a>
-          ,
+          ,{" "}
           <a
             target="_blank"
             href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/310.html"
           >
             <span className="text-gray-200 hover: brightness-150">
-              {" "}
               COMP_SCI 310: Scalable Software Architectures
             </span>
           </a>
-          , and
+          , and{" "}
           <a
             target="_blank"
             href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/396-6.html"
           >
             <span className="text-gray-200 hover: brightness-150">
-              {" "}
               COMP_SCI 396: Intro to Web Development
             </span>
           </a>
@@ -86,15 +91,15 @@ const Homepage = () => {
             href="https://www.thegarage.northwestern.edu/programs/the-luminate-program"
           >
             <span className="text-gray-200 hover: brightness-150">
-              The Garage{" "}
+              The Garage
             </span>
-          </a>
+          </a>{" "}
           , where I am currently working on developing a ride share application
           to help connect riders to save cost and lower carbon emission. Besides
           software engineering, I also interned at{" "}
           <a target="_blank" href="https://sites.northwestern.edu/lanelab/">
             <span className="text-gray-200 hover: brightness-150">
-              The Lane Lab{" "}
+              The Lane Lab
             </span>
           </a>{" "}
           as a Research Assistant, where I worked on building a pipeline for
