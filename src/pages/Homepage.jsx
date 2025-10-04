@@ -54,8 +54,7 @@ const Homepage = () => {
           >
             <span className="text-gray-200 hover: brightness-150">
               {" "}
-              COMP_SCI 358: Intro to Parallel Computing COMP_SCI 358: Intro to
-              Parallel Computing
+              COMP_SCI 358: Intro to Parallel Computing
             </span>
           </a>
           ,
@@ -65,8 +64,7 @@ const Homepage = () => {
           >
             <span className="text-gray-200 hover: brightness-150">
               {" "}
-              COMP_SCI 310: Scalable Software Architectures COMP_SCI 310:
-              Scalable Software Architectures
+              COMP_SCI 310: Scalable Software Architectures
             </span>
           </a>
           , and
