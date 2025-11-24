@@ -55,7 +55,7 @@ const Homepage = () => {
               Northwestern IEEE.
             </span>
           </a>{" "}
-          I am was a peer mentor for{" "}
+          I also peer mentored for{" "}
           <a
             target="_blank"
             href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/358.html"

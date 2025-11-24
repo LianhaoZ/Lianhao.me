@@ -32,9 +32,7 @@ const ProjectsPage = () => {
             <div>Projects</div>
           </div>
         </h1>
-        <p className="text-gray-300">
-          Below is the list of projects I worked on.
-        </p>
+        <p className="text-gray-300">Projects I worked on.</p>
 
         <div
           style={{
