@@ -1,7 +1,7 @@
 import { useState, useRef, Suspense, useMemo } from "react";
 import { Canvas, useFrame, extend, useLoader } from "@react-three/fiber";
 import { Points, PointMaterial, Preload, Effects } from "@react-three/drei";
-import * as random from "maath/random/dist/maath-random.esm";
+import * as random from "maath/random";
 
 import { FilmPass, WaterPass, UnrealBloomPass, LUTPass, LUTCubeLoader, GlitchPass, RenderPixelatedPass } from 'three-stdlib'
 extend({ WaterPass, UnrealBloomPass, FilmPass, LUTPass, GlitchPass })

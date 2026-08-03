@@ -2,7 +2,7 @@ import { Footer } from "../Components";
 import { projects } from "../constants/Data";
 import "../Components/project.css";
 import { Mask, cell } from "../../public/assets";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const projectcard = ({
   index,

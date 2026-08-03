@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import { Link, NavLink } from 'react-router-dom'; 
+import { Link, NavLink } from 'react-router';
 
 import { fadeIn, textVariant } from "../utils/motion"; 
 import { motion } from "framer-motion"; 

@@ -1,5 +1,5 @@
 import { Suspense, useEffect } from "react";
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet, useLocation } from "react-router";
 
 import StarsCanvas from "../Components/Stars";
 import { Load, Navbar } from "../Components";
